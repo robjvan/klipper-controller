@@ -1,0 +1,63 @@
+{
+  "jsonrpc": "2.0", 
+  "result": {
+    "eventtime": 723687.530434771, 
+    "status": {
+      "webhooks": {
+        "state": "ready", 
+        "state_message": "Printer is ready"
+        }, 
+      "print_stats": {
+        "filename": "", 
+        "total_duration": 0.0, 
+        "print_duration": 0.0, 
+        "filament_used": 0.0, 
+        "state": "standby", 
+        "message": "", 
+        "info": {
+          "total_layer": null, 
+          "current_layer": null
+          }}, 
+      "heater_bed": {
+        "temperature": 26.04, 
+        "target": 0.0, 
+        "power": 0.0
+        }, 
+      "extruder": {
+        "temperature": 27.79, 
+        "target": 0.0, 
+        "power": 0.0, 
+        "can_extrude": false, 
+        "pressure_advance": 0.367, 
+        "smooth_time": 0.04
+        }, 
+      "fan": {
+        "speed": 0.0, 
+        "rpm": null
+        }, 
+      "gcode_move": {
+        "speed_factor": 1.0, 
+        "speed": 300.0, 
+        "extrude_factor": 1.0,
+        "absolute_coordinates": false, 
+        "absolute_extrude": true, 
+        "homing_origin": [0.0, 0.0, 0.0, 0.0], 
+        "position": [-5.0, 157.308, 22.7, 3792.9661], 
+        "gcode_position": [-5.0, 157.308, 22.7, 3732.9661]
+        }, 
+      "toolhead": {
+        "homed_axes": "", 
+        "axis_minimum": [-5.0, 0.0, 0.0, 0.0], 
+        "axis_maximum": [210.0, 210.0, 205.0, 0.0], 
+        "print_time": 224340.36641025, 
+        "stalls": 1, 
+        "estimated_print_time": 224856.7741855, 
+        "extruder": "extruder", 
+        "position": [-5.0, 157.308, 22.7, 3792.9661], 
+        "max_velocity": 300.0, 
+        "max_accel": 3000.0, 
+        "max_accel_to_decel": 1500.0, 
+        "square_corner_velocity": 5.0
+        }
+                }
+            }, "id": 0}
