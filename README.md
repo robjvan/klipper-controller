@@ -2,7 +2,7 @@
 
 <img width="150" height="300" src="https://i.robjvan.ca/image_placeholder.png"> <img width="150" height="300" src="https://i.robjvan.ca/image_placeholder.png">
 
-Mobile application used to control 3D printer using the Moonraker API built into the Klipper firmware.
+Mobile application for controlling a 3D printer. Uses the Moonraker API built into the Klipper firmware.
 
 ## Features
 
