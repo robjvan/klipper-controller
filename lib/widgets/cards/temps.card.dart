@@ -87,15 +87,22 @@ class TempsCard extends StatelessWidget {
           const SizedBox(height: 16),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                reusablePreheatButton(Filament.PLA, 'PLA'),
-                reusablePreheatButton(Filament.PETG, 'PETG'),
-                reusablePreheatButton(Filament.TPU, 'TPU'),
-                reusablePreheatButton(Filament.NYLON, 'Nylon'),
-                reusablePreheatButton(Filament.ABS, 'ABS'),
-              ],
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                  reusablePreheatButton(Filament.PLA, 'PLA'),
+                  const SizedBox(width: 4.0),
+                  reusablePreheatButton(Filament.PETG, 'PETG'),
+                  const SizedBox(width: 4.0),
+                  reusablePreheatButton(Filament.TPU, 'TPU'),
+                  const SizedBox(width: 4.0),
+                  reusablePreheatButton(Filament.NYLON, 'Nylon'),
+                  const SizedBox(width: 4.0),
+                  reusablePreheatButton(Filament.ABS, 'ABS'),
+                ],
+              ),
             ),
           ),
         ],

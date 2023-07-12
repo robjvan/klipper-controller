@@ -133,15 +133,22 @@ class _CoolingCardState extends State<CoolingCard> {
   }
 
   Widget buildButtons() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: <Widget>[
-        reusableButton(0),
-        reusableButton(25),
-        reusableButton(50),
-        reusableButton(75),
-        reusableButton(101),
-      ],
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          reusableButton(0),
+          const SizedBox(width: 4.0),
+          reusableButton(25),
+          const SizedBox(width: 4.0),
+          reusableButton(50),
+          const SizedBox(width: 4.0),
+          reusableButton(75),
+          const SizedBox(width: 4.0),
+          reusableButton(101),
+        ],
+      ),
     );
   }
 
